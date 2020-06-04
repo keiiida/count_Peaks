@@ -1,0 +1,4 @@
+./scripts/print_Introns.pl test_files/refseq_mm10_GRCm38.p4.representative.chr17_chr19.bed > refseq_mm10_GRCm38.p4.representative.chr17_chr19.introns.bed
+
+scripts/count_Peaks.pl refseq_mm10_GRCm38.p4.representative.chr17_chr19.introns.bed test_files/N2A_Peaks_HighS.chr17_chr19.bed 0 > refseq_mm10_GRCm38.p4.representative.chr17_chr19.introns.vs_N2A_Peaks_HighS.txt
+scripts/count_Peaks.pl refseq_mm10_GRCm38.p4.representative.chr17_chr19.introns.bed test_files/N2A_Peaks_LowS.chr17_chr19.bed 0 > refseq_mm10_GRCm38.p4.representative.chr17_chr19.introns.vs_N2A_Peaks_LowS.txt
