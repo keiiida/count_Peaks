@@ -23,10 +23,10 @@ This demo is for searching CLIP-peaks overlapping with intronic regions.
 For the CLIP-peak data, analysis results for an RNA-binding protein; SFPQ are prepared.  
 A directory ./test_files/bam_files_SE/ contains two files for CLIP-peaks.  
 One is High-S peaks which mean "high-strigent bindings", and the other is Low-S peaks meaning "low-strigent bindings".  
-See detail for the RNA binding protein; SFPQ and peak definition at [Takeuch *et al.* 2018. *Cell Rep.*](https://doi.org/10.1016/j.celrep.2018.03.141 "DOI").  
-Raw files are found at NCBI GEO site with an accession ID: [GSE96080](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?GSE96080 "NCBI GEO").
+See detail for the RNA binding protein SFPQ and peak definition at [Takeuch *et al.* 2018. *Cell Rep.*](https://doi.org/10.1016/j.celrep.2018.03.141 "DOI").  
+Raw files are found at NCBI GEO with an accession ID: [GSE96080](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?GSE96080 "NCBI GEO").
 
-Genes on chr17, chr18, and chr19 in the genome annotaion GRCm38.p4 from Refseq, and CLIP-peaks on the chromosomes are used here.  
+Genes on chr17, chr18, and chr19 in the genome annotaion GRCm38.p4 from NCBI Refseq, and CLIP-peaks on these chromosomes are used here.  
 
 ```
 ## 1.Prepare a bed file for intronic regions.
